@@ -25,7 +25,7 @@ $cmd_duration
 """
 
 add_newline = true
-palette = "old"
+palette = "light"
 
 # ---------------- PALETTES ----------------
 [palettes.old]
@@ -80,6 +80,24 @@ conda = "#BAF5C0"
 duration = "#91FFE7"
 text_color = "#26272A"
 text_light = "#26272A"
+
+[palettes.minimal]
+arrow     = "#555555"
+os        = "#2E2E2E"
+os_admin  = "#2E2E2E"
+directory = "#3A3A3A"
+node      = "#444444"
+time      = "#404040"
+git       = "#383838"
+git_status= "#303030"
+python    = "#424242"
+conda     = "#3E3E3E"
+java      = "#383838"
+rust      = "#3C3C3C"
+clang     = "#404040"
+duration  = "#484848"
+text_color = "#E8E8E8"
+text_light = "#C0C0C0"
 
 # ---------------- OS ----------------
 [os]
