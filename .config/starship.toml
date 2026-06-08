@@ -14,7 +14,7 @@ $cmd_duration
 [╰─](fg:arrow)$character """
 
 add_newline = true
-palette = "old"
+palette = "normal"
 
 # ---------------- PALETTES ----------------
 [palettes.old]
