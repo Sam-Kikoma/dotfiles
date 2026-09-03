@@ -6,8 +6,8 @@
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
-font_family      JetBrainsMono Nerd Font Mono
-bold_font        JetBrainsMono Nerd Font Mono Extra Bold
+font_family      JetBrainsMono  Nerd Font Mono
+bold_font        JetBrainsMono  Nerd Font Mono Extra Bold
 italic_font      JetBrainsMono Nerd Font Mono Light Italic
 bold_italic_font JetBrainsMono Nerd Font Mono Extra Bold Italic
 
@@ -1105,7 +1105,7 @@ font_size 12.0
 #: The second number is the margin between the tab bar and the
 #: contents of the current tab.
 
-# tab_bar_style fade
+ tab_bar_style powerline
 
 #: The tab bar style, can be one of:
 
@@ -1163,7 +1163,7 @@ font_size 12.0
 #: The separator between tabs in the tab bar when using separator as
 #: the tab_bar_style.
 
-# tab_powerline_style angled
+ tab_powerline_style round
 
 #: The powerline separator style between tabs in the tab bar when
 #: using powerline as the tab_bar_style, can be one of: angled,
@@ -1267,7 +1267,7 @@ font_size 12.0
 
 #: The foreground and background colors.
 
-background_opacity 0.95
+background_opacity 0.89
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -2714,6 +2714,6 @@ background_opacity 0.95
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night
+# Ayu Mirage
 include current-theme.conf
 # END_KITTY_THEME
